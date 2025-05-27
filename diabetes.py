@@ -20,4 +20,3 @@ def load_raw_data():
     
     ClfTarget = 'Outcome'
     return data, continuous_features, categorical_features, integer_features, ClfTarget
-    s

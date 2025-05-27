@@ -94,3 +94,5 @@ def load_raw_data():
     integer_features = continuous_features
 
     ClfTarget = "match"
+    return data, continuous_features, categorical_features, integer_features, ClfTarget
+s

@@ -28,3 +28,5 @@ def load_raw_data():
     integer_features = continuous_features
     
     ClfTarget = 'income'
+    return data, continuous_features, categorical_features, integer_features, ClfTarget
+    
